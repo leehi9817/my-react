@@ -1,12 +1,12 @@
 import "./App.css";
+import ButtonA from "./ButtonA";
+import ButtonB from "./ButtonB";
 
 function App() {
   return (
     <>
-      {/* JSX Practices */}
-      <h1>JSX</h1>
-
-      <br />
+      <ButtonA />
+      <ButtonB />
     </>
   );
 }
